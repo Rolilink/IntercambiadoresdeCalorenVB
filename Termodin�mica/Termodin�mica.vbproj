@@ -1,0 +1,311 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{3468AA72-D272-4A9A-BE14-129A93E3D912}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>Termodinámica.My.MyApplication</StartupObject>
+    <RootNamespace>Termodinámica</RootNamespace>
+    <AssemblyName>Termodinámica</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>Termodinámica.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>Termodinámica.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="LMTD.Designer.vb">
+      <DependentUpon>LMTD.vb</DependentUpon>
+    </Compile>
+    <Compile Include="LMTD.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="main.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="main.Designer.vb">
+      <DependentUpon>main.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="interpolaciones.Designer.vb">
+      <DependentUpon>interpolaciones.vb</DependentUpon>
+    </Compile>
+    <Compile Include="interpolaciones.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="transformaciones.Designer.vb">
+      <DependentUpon>transformaciones.vb</DependentUpon>
+    </Compile>
+    <Compile Include="transformaciones.vb">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="interpolaciones.resx">
+      <DependentUpon>interpolaciones.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LMTD.resx">
+      <DependentUpon>LMTD.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="main.resx">
+      <DependentUpon>main.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="transformaciones.resx">
+      <DependentUpon>transformaciones.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\st_01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fondo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Titulo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\st_02.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\st_03.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\st_04.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\st_05.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\st_06.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\st_07.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\st_08.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\st_09.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\st_10.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\st_11.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\st_12.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hoverint.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hoverlmtd.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hoversalir.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hovertran.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sin-título-2_03.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sin-título-2_07.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sin-título-2_10.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sin-título-2_15.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sin-título-2_17.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sin-título-2_22.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sin-título-2_24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sin-título-2_031.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sin-título-2_06.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sin-título-21_03.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sin-título-21_06.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sin-título-4_03.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sin-título-4_06.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sin-título-4_08.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sin-título-4_13.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sin-título-4_16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sin-título-4_20.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sin-título-4_23.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sin-título-4_25.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sin-título-4_27.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sin-título-4_29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sin-título-42_03.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sin-título-3_03.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sin-título-3_06.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sin-título-3_11.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sin-título-3_14.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sin-título-3_19.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sin-título-3_22.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sin-título-3_24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hover_03.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hover_06.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\calorespecifico_03.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\calor_03.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\direccion_03.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

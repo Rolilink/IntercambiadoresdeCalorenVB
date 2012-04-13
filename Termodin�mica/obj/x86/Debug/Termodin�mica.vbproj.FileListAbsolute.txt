@@ -1,0 +1,43 @@
+c:\users\erick\documents\visual studio 2010\Projects\Termodinámica\Termodinámica\obj\x86\Debug\ResolveAssemblyReference.cache
+c:\users\erick\documents\visual studio 2010\Projects\Termodinámica\Termodinámica\obj\x86\Debug\Termodinámica.interpolaciones.resources
+c:\users\erick\documents\visual studio 2010\Projects\Termodinámica\Termodinámica\obj\x86\Debug\Termodinámica.main.resources
+c:\users\erick\documents\visual studio 2010\Projects\Termodinámica\Termodinámica\obj\x86\Debug\Termodinámica.Resources.resources
+c:\users\erick\documents\visual studio 2010\Projects\Termodinámica\Termodinámica\obj\x86\Debug\GenerateResource.read.1.tlog
+c:\users\erick\documents\visual studio 2010\Projects\Termodinámica\Termodinámica\obj\x86\Debug\GenerateResource.write.1.tlog
+c:\users\erick\documents\visual studio 2010\Projects\Termodinámica\Termodinámica\bin\Debug\Termodinámica.exe
+c:\users\erick\documents\visual studio 2010\Projects\Termodinámica\Termodinámica\bin\Debug\Termodinámica.pdb
+c:\users\erick\documents\visual studio 2010\Projects\Termodinámica\Termodinámica\bin\Debug\Termodinámica.xml
+c:\users\erick\documents\visual studio 2010\Projects\Termodinámica\Termodinámica\obj\x86\Debug\Termodinámica.exe
+c:\users\erick\documents\visual studio 2010\Projects\Termodinámica\Termodinámica\obj\x86\Debug\Termodinámica.xml
+c:\users\erick\documents\visual studio 2010\Projects\Termodinámica\Termodinámica\obj\x86\Debug\Termodinámica.pdb
+C:\Users\Erick\documents\visual studio 2010\Projects\Termodinámica\Termodinámica\obj\x86\Debug\Termodinámica.transformaciones.resources
+D:\Universidad\3° Año\II Semestre\Ciencias termofluidas\Termodinámica\Termodinámica\obj\x86\Debug\Termodinámica.exe
+D:\Universidad\3° Año\II Semestre\Ciencias termofluidas\Termodinámica\Termodinámica\obj\x86\Debug\Termodinámica.xml
+D:\Universidad\3° Año\II Semestre\Ciencias termofluidas\Termodinámica\Termodinámica\obj\x86\Debug\Termodinámica.pdb
+C:\Users\Erick\Desktop\Termodinámica\Termodinámica\obj\x86\Debug\Termodinámica.exe
+C:\Users\Erick\Desktop\Termodinámica\Termodinámica\obj\x86\Debug\Termodinámica.xml
+C:\Users\Erick\Desktop\Termodinámica\Termodinámica\obj\x86\Debug\Termodinámica.pdb
+C:\Users\Erick\Desktop\Termodinámica\Termodinámica\bin\Debug\Termodinámica.exe
+C:\Users\Erick\Desktop\Termodinámica\Termodinámica\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Erick\Desktop\Termodinámica\Termodinámica\obj\x86\Debug\Termodinámica.interpolaciones.resources
+C:\Users\Erick\Desktop\Termodinámica\Termodinámica\obj\x86\Debug\Termodinámica.main.resources
+C:\Users\Erick\Desktop\Termodinámica\Termodinámica\obj\x86\Debug\Termodinámica.Resources.resources
+C:\Users\Erick\Desktop\Termodinámica\Termodinámica\obj\x86\Debug\Termodinámica.transformaciones.resources
+C:\Users\Erick\Desktop\Termodinámica\Termodinámica\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\Erick\Desktop\Termodinámica\Termodinámica\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\Erick\Desktop\Termodinámica\Termodinámica\bin\Debug\Termodinámica.pdb
+C:\Users\Erick\Desktop\Termodinámica\Termodinámica\bin\Debug\Termodinámica.xml
+E:\Documentos\Serious Business\U\Sistemas 11\2 Semestre\Ciencias Termofluidicas\Termodinámica\Termodinámica\Termodinámica\obj\x86\Debug\Termodinámica.exe
+E:\Documentos\Serious Business\U\Sistemas 11\2 Semestre\Ciencias Termofluidicas\Termodinámica\Termodinámica\Termodinámica\obj\x86\Debug\Termodinámica.xml
+E:\Documentos\Serious Business\U\Sistemas 11\2 Semestre\Ciencias Termofluidicas\Termodinámica\Termodinámica\Termodinámica\obj\x86\Debug\Termodinámica.pdb
+E:\Documentos\Serious Business\U\Sistemas 11\2 Semestre\Ciencias Termofluidicas\Termodinámica\Termodinámica\Termodinámica\bin\Debug\Termodinámica.exe
+E:\Documentos\Serious Business\U\Sistemas 11\2 Semestre\Ciencias Termofluidicas\Termodinámica\Termodinámica\Termodinámica\bin\Debug\Termodinámica.pdb
+E:\Documentos\Serious Business\U\Sistemas 11\2 Semestre\Ciencias Termofluidicas\Termodinámica\Termodinámica\Termodinámica\bin\Debug\Termodinámica.xml
+E:\Documentos\Serious Business\U\Sistemas 11\2 Semestre\Ciencias Termofluidicas\Termodinámica\Termodinámica\Termodinámica\obj\x86\Debug\ResolveAssemblyReference.cache
+E:\Documentos\Serious Business\U\Sistemas 11\2 Semestre\Ciencias Termofluidicas\Termodinámica\Termodinámica\Termodinámica\obj\x86\Debug\Termodinámica.interpolaciones.resources
+E:\Documentos\Serious Business\U\Sistemas 11\2 Semestre\Ciencias Termofluidicas\Termodinámica\Termodinámica\Termodinámica\obj\x86\Debug\Termodinámica.main.resources
+E:\Documentos\Serious Business\U\Sistemas 11\2 Semestre\Ciencias Termofluidicas\Termodinámica\Termodinámica\Termodinámica\obj\x86\Debug\Termodinámica.Resources.resources
+E:\Documentos\Serious Business\U\Sistemas 11\2 Semestre\Ciencias Termofluidicas\Termodinámica\Termodinámica\Termodinámica\obj\x86\Debug\Termodinámica.transformaciones.resources
+E:\Documentos\Serious Business\U\Sistemas 11\2 Semestre\Ciencias Termofluidicas\Termodinámica\Termodinámica\Termodinámica\obj\x86\Debug\GenerateResource.read.1.tlog
+E:\Documentos\Serious Business\U\Sistemas 11\2 Semestre\Ciencias Termofluidicas\Termodinámica\Termodinámica\Termodinámica\obj\x86\Debug\GenerateResource.write.1.tlog
+E:\Documentos\Serious Business\U\Sistemas 11\2 Semestre\Ciencias Termofluidicas\Termodinámica\Termodinámica\Termodinámica\obj\x86\Debug\Termodinámica.LMTD.resources
